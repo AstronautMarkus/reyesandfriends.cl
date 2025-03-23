@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+$family-sans-serif: 'IBM Plex Sans', sans-serif;
+@import "bulma/bulma";
+
+:root {
+    --bulma-primary-h: 0deg;     
+    --bulma-primary-s: 80%;      
+    --bulma-primary-l: 40%;      
+  
+    --bulma-link-h: 210deg;      
+    --bulma-link-s: 58%;
+    
+    --bulma-info-h: 350deg;
+    --bulma-info-s: 0%;          
+  
+    --bulma-success-h: 120deg;   
+    --bulma-success-s: 65%;
+    --bulma-success-l: 50%;
+  
+    --bulma-warning-h: 49deg;    
+    --bulma-warning-l: 48%;
+  
+    --bulma-danger-h: 360deg;
+    --bulma-danger-l: 56%;
+  }
+
+  
+  
+
+
