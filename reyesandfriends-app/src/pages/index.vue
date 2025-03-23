@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-primary">
+  <section class="hero custom-hero-gradient">
     <div class="hero-body">
       <div class="columns is-vcentered">
         <div class="column is-half">
@@ -149,5 +149,9 @@
 .fade-zoom-enter-from {
   opacity: 0;
   transform: scale(0.8);
+}
+
+.custom-hero-gradient {
+  background: linear-gradient(to bottom, #891818, #5A1414);
 }
 </style>
