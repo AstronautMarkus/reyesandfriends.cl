@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { routes } from '../router/router';
+---
+
+<Layout>
+	<>
+        <h1>Projects</h1>
+        <p>Here are some of the projects I've worked on.</p>
+        <ul>
+            <li>
+                <a href={routes.projects + "/astro"}>Astro</a>
+            </li>
+            <li>
+                <a href={routes.projects + "/snowpack"}>Snowpack</a>
+            </li>
+            <li>
+                <a href={routes.projects + "/svelte"}>Svelte</a>
+            </li>
+        </ul>
+	</>
+</Layout>
