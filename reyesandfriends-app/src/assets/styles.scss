@@ -23,9 +23,13 @@ $family-sans-serif: 'IBM Plex Sans', sans-serif;
   
     --bulma-danger-h: 360deg;
     --bulma-danger-l: 56%;
-  }
+}
 
-  
-  
+body {
+    font-family: $family-sans-serif;
+}
+
+
+
 
 
