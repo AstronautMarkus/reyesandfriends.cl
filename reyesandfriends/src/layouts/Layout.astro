@@ -1,3 +1,7 @@
+---
+import Navbar from "../components/Navbar/Navbar.astro"
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -5,20 +9,14 @@
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<link rel="stylesheet" href="/css/foundation.css">
-		<link rel="stylesheet" href="/css/app.css">
+		<link rel="stylesheet" href="https://cdn.metroui.org.ua/current/metro.css">
 		<title>Astro Basics</title>
 	</head>
 	<body>
+		<Navbar />
 		<slot />
-
-		<script src="/js/vendor/jquery.js" is:inline></script>
-		<script src="/js/vendor/what-input.js" is:inline></script>
-		<script src="/js/vendor/foundation.js" is:inline></script>
-		<script src="/js/app.js" is:inline></script>
-		
-
 	</body>
+	<script src="https://cdn.metroui.org.ua/current/metro.js"></script>
 </html>
 
 <style>
