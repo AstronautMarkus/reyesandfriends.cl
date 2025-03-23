@@ -21,8 +21,6 @@
             </div>
             <div class="navbar-end">
             <router-link class="navbar-item custom-navbar-item" to="/about">Acerca de</router-link>
-            <router-link class="navbar-item custom-navbar-item" to="/blog">Blog</router-link>
-            <router-link class="navbar-item custom-navbar-item" to="/support">Soporte</router-link>
           </div>
         </div>
       </div>
