@@ -80,8 +80,4 @@
   color: #ffffff !important;
 }
 
-.navbar-with-border {
-  border-bottom: 4px solid rgb(182, 0, 0);
-}
-
-  </style>
+</style>
