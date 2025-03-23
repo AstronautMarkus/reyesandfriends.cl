@@ -1,9 +1,9 @@
 <template>
-    <nav class="navbar has-background-dark py-2 navbar-with-border" role="navigation" aria-label="main navigation">
+    <nav class="navbar has-background-black navbar-with-border" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
           <router-link to="/">
-            <img src="/reyesandfriends.svg" alt="ReyesAndFriends" style="width: 150px; display: block;">
+            <img src="/reyesandfriends.svg" alt="ReyesAndFriends" style="width: 200px; display: block;">
           </router-link>
           <a role="button" class="navbar-burger" :class="{ 'is-active': isMenuActive }" aria-label="menu" aria-expanded="false" @click="toggleMenu">
             <span aria-hidden="true"></span>
@@ -15,14 +15,14 @@
   
         <div class="navbar-menu" :class="{ 'is-active': isMenuActive }">
           <div class="navbar-start">
-            <a class="navbar-item custom-navbar-item" href="#">Proyectos</a>            
-            <a class="navbar-item custom-navbar-item" href="#">Servicios</a>
-            <a class="navbar-item custom-navbar-item" href="#">Contacto</a>
-          </div>
-          <div class="navbar-end">
-            <a class="navbar-item custom-navbar-item" href="#">Acerca de</a>
-            <a class="navbar-item custom-navbar-item" href="#">Blog</a>
-            <a class="navbar-item custom-navbar-item" href="#">Soporte</a>
+            <router-link class="navbar-item custom-navbar-item" to="/projects">Proyectos</router-link>            
+            <router-link class="navbar-item custom-navbar-item" to="/services">Servicios</router-link>
+            <router-link class="navbar-item custom-navbar-item" to="/contact">Contacto</router-link>
+            </div>
+            <div class="navbar-end">
+            <router-link class="navbar-item custom-navbar-item" to="/about">Acerca de</router-link>
+            <router-link class="navbar-item custom-navbar-item" to="/blog">Blog</router-link>
+            <router-link class="navbar-item custom-navbar-item" to="/support">Soporte</router-link>
           </div>
         </div>
       </div>
@@ -63,10 +63,6 @@
   .custom-navbar-item {
     color: white !important;
     display: block;
-  }
-
-  .custom-navbar-item:hover {
-    background-color: rgba(255, 255, 255, 0.2);
   }
 }
 
