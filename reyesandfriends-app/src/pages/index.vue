@@ -43,7 +43,7 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="/icons/reshot-icon-web-design-ZD36AXCWJB.svg" alt="Desarrollo Web">
+                <img src="/icons/responsive-svgrepo-com.svg" alt="Desarrollo Web">
               </figure>
             </div>
             <div class="card-content">
@@ -57,7 +57,7 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="/icons/reshot-icon-talk-about-work-PWBYE6HGKT.svg" alt="Asesoramiento completo">
+                <img src="/icons/talk-bubbles-outline-badged-svgrepo-com.svg" alt="Asesoramiento completo">
               </figure>
             </div>
             <div class="card-content">
@@ -70,7 +70,7 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-          <img src="/icons/reshot-icon-cloud-and-server-data-S9VMEA27L6.svg" alt="Alojamiento y Soporte">
+          <img src="/icons/server-svgrepo-com.svg" alt="Alojamiento y Soporte">
               </figure>
             </div>
             <div class="card-content">
