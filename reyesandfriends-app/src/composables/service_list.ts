@@ -28,7 +28,7 @@ export function serviceList() {
             id: 4,
             title: "Software a Medida",
             description: "¿Necesitas una aplicación que se adapte a tus necesidades? Desarrollamos software a medida para empresas y particulares.",
-            image: "https://via.placeholder.com/300x200",
+            image: "/img/services/custom-software.png",
             ideal_for: "Empresas, particulares, organizaciones, instituciones, Sistemas personalizados.",
             url:"/services/custom-software"
         },

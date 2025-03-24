@@ -1,3 +1,7 @@
+<script setup>
+import FAQ from '../components/FAQ/FAQ.vue';
+</script>
+
 <template>
   <section class="hero custom-hero-gradient">
     <div class="hero-body">
@@ -183,6 +187,8 @@
     </section>
   </section>
 
+  <h1 class="title is-2 has-text-centered">Preguntas frecuentes</h1>
+  <FAQ />
 
 
 </template>
