@@ -12,6 +12,7 @@ export default {
 
 <template>
     <div class="services-list">
+        
         <section class="hero is-primary custom-hero-gradient">
             <div class="hero-body">
                 <div class="container">
@@ -27,13 +28,17 @@ export default {
                     <div class="column is-one-third" v-for="service in services" :key="service.id">
                         <div class="card">
                             <div class="card-image">
-                                <figure class="image is-4by3">
+                                <figure class="image is-16by9">
                                     <img :src="service.image" :alt="service.title">
                                 </figure>
                             </div>
                             <div class="card-content">
                                 <p class="title is-4">{{ service.title }}</p>
-                                <p class="content">{{ service.description }}</p>
+                                <p class="content mt-2">{{ service.description }}</p>
+                                <p class="content is-5 mt-4">Ideal para: {{ service.ideal_for }}</p>
+                                <div class="has-text-centered">
+                                    <router-link :to="service.url" class="mt-4 button is-primary has-text-white">Ver más</router-link>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -52,5 +57,9 @@ export default {
 .card {
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+}
+
+.columns {
+    justify-content: center;
 }
 </style>

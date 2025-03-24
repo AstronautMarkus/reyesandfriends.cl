@@ -15,8 +15,8 @@
 
       <div class="navbar-menu" :class="{ 'is-active': isMenuActive }">
         <div class="navbar-start">
-          <router-link class="custom-navbar-item" to="/projects">Proyectos</router-link>            
           <router-link class="custom-navbar-item" to="/services">Servicios</router-link>
+          <router-link class="custom-navbar-item" to="/projects">Proyectos</router-link>
           <router-link class="custom-navbar-item" to="/contact">Contacto</router-link>
         </div>
         <div class="navbar-end">
