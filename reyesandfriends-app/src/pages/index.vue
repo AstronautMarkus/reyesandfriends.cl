@@ -17,13 +17,14 @@
               Desde sitios web hasta plataformas avanzadas, hacemos realidad tus ideas.
             </h2>
           </transition>
+
         </div>
 
         <div class="column is-half">
 
           <transition name="fade-zoom" appear>
             <figure class="image">
-              <img src="/img/laptop.png" alt="Foto de ejemplo">
+              <img src="/img/laptop.png" alt="computer">
             </figure>
           </transition>
         </div>
@@ -32,11 +33,60 @@
   </section>
 
 
+  <section class="section">
+    <div class="container has-text-centered">
+      <h1 class="title is-2">¿Qué Ofrecemos?</h1>
+      <p class="subtitle is-5">Descubre nuestros servicios diseñados para impulsar tu negocio.</p>
+
+      <div class="columns is-multiline mt-5">
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="/icons/reshot-icon-web-design-ZD36AXCWJB.svg" alt="Desarrollo Web">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-5">🌐 Diseño atractivo y responsivo</p>
+              <p>Diseñamos y desarrollamos sitios web modernos y funcionales para tu negocio.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="/icons/reshot-icon-talk-about-work-PWBYE6HGKT.svg" alt="Asesoramiento completo">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-5">🗣️ Asesoramiento Completo</p>
+              <p>Te acompañamos en este proceso, asegurando que tengas la página web que necesitas para tu negocio.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+          <img src="/icons/reshot-icon-cloud-and-server-data-S9VMEA27L6.svg" alt="Alojamiento y Soporte">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-5">🌐 Alojamiento y Soporte 24/7</p>
+              <p>Nos encargamos de alojar tu sitio web en la nube, asegurando su disponibilidad y rendimiento en todo momento.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="section">
     <div class="container has-text-centered">
-      <h1 class="title is-2">Sobre Nosotros</h1>
-      <p>
+      <h1 class="title is-2 mb-4">Sobre Nosotros</h1>
+      <p class="subtitle is-5">
         En Reyes&Friends, nos especializamos en ofrecer soluciones tecnológicas innovadoras para empresas y emprendedores.
         Desde el desarrollo de sitios web hasta la creación de plataformas avanzadas, estamos aquí para ayudarte a alcanzar tus metas digitales.
       </p>
@@ -142,6 +192,13 @@
   transform: translateY(-20px);
 }
 
+.fade-slide-leave-active {
+  transition: opacity 1s, transform 1s ease-in;
+}
+.fade-slide-leave-to {
+  opacity: 0;
+  transform: translateY(-20px);
+}
 
 .fade-zoom-enter-active {
   transition: opacity 1s, transform 1s ease-out;
