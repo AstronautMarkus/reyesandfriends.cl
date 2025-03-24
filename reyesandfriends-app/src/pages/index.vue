@@ -81,6 +81,11 @@
         </div>
       </div>
     </div>
+
+    <div class="container has-text-centered mt-5">
+      <router-link to="/services" class="button is-primary is-large has-text-white">Revisar lista de servicios</router-link>
+    </div>
+
   </section>
 
   <section class="section">
