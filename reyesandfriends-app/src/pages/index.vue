@@ -47,7 +47,7 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-5">🌐 Diseño atractivo y responsivo</p>
+              <p class="title is-5">Diseño atractivo y responsivo</p>
               <p>Diseñamos y desarrollamos sitios web modernos y funcionales para tu negocio.</p>
             </div>
           </div>
@@ -61,7 +61,7 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-5">🗣️ Asesoramiento Completo</p>
+              <p class="title is-5">Asesoramiento Completo</p>
               <p>Te acompañamos en este proceso, asegurando que tengas la página web que necesitas para tu negocio.</p>
             </div>
           </div>
@@ -74,7 +74,7 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-5">🌐 Alojamiento y Soporte 24/7</p>
+              <p class="title is-5">Alojamiento y Soporte 24/7</p>
               <p>Nos encargamos de alojar tu sitio web en la nube, asegurando su disponibilidad y rendimiento en todo momento.</p>
             </div>
           </div>
