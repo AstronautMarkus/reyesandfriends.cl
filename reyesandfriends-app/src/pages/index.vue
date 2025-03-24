@@ -35,7 +35,7 @@
 
   <section class="section">
     <div class="container has-text-centered">
-      <h1 class="title is-2">¿Qué Ofrecemos?</h1>
+      <h1 class="title is-2 mb-4">¿Qué Ofrecemos?</h1>
       <p class="subtitle is-5">Descubre nuestros servicios diseñados para impulsar tu negocio.</p>
 
       <div class="columns is-multiline mt-5">
@@ -95,7 +95,7 @@
     <div class="container mt-5">
       <div class="columns is-vcentered">
         <div class="column is-6">
-          <h1 class="title is-3">¿A quién nos dirigimos?</h1>
+          <h1 class="title is-3 mb-4">¿A quién nos dirigimos?</h1>
           <p class="subtitle is-6 mt-2 mb-2">Nuestros servicios están diseñados para:</p>
           <ul class="content">
             <li>✔️ Emprendedores que buscan llevar sus ideas al mundo digital.</li>
@@ -127,7 +127,7 @@
               </div>
               <div class="card-content">
                 <p class="title is-5">🚀 Experiencia Técnica</p>
-                <p>Usamos tecnologías modernas como Astro, Laravel y Django para soluciones rápidas y escalables.</p>
+                <p>Usamos tecnologías modernas como React, Laravel o Django para soluciones rápidas y escalables.</p>
               </div>
             </div>
           </div>
