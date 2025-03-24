@@ -1,3 +1,26 @@
+<script>
+import { OhVueIcon, addIcons } from 'oh-vue-icons';
+import { BiGearFill, BiBriefcaseFill, BiEnvelopeFill, BiInfoCircleFill } from 'oh-vue-icons/icons';
+
+addIcons(BiGearFill, BiBriefcaseFill, BiEnvelopeFill, BiInfoCircleFill);
+
+export default {
+  components: {
+    'v-icon': OhVueIcon,
+  },
+  data() {
+    return {
+      isMenuActive: false,
+    };
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuActive = !this.isMenuActive;
+    },
+  },
+};
+</script>
+
 <template>
   <nav class="navbar has-background-black navbar-with-border" role="navigation" aria-label="main navigation">
     <div class="container">
@@ -15,32 +38,26 @@
 
       <div class="navbar-menu" :class="{ 'is-active': isMenuActive }">
         <div class="navbar-start">
-          <router-link class="custom-navbar-item" to="/services">Servicios</router-link>
-          <router-link class="custom-navbar-item" to="/projects">Proyectos</router-link>
-          <router-link class="custom-navbar-item" to="/contact">Contacto</router-link>
+          <router-link class="custom-navbar-item" to="/services">
+            <v-icon name="bi-gear-fill" /> Servicios
+          </router-link>
+          <router-link class="custom-navbar-item" to="/projects">
+            <v-icon name="bi-briefcase-fill" /> Proyectos
+          </router-link>
+          <router-link class="custom-navbar-item" to="/contact">
+            <v-icon name="bi-envelope-fill" /> Contacto
+          </router-link>
         </div>
         <div class="navbar-end">
-          <router-link class="custom-navbar-item" to="/about">Acerca de</router-link>
+          <router-link class="custom-navbar-item" to="/about">
+            <v-icon name="bi-info-circle-fill" /> Acerca de
+          </router-link>
         </div>
       </div>
     </div>
   </nav>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      isMenuActive: false,
-    };
-  },
-  methods: {
-    toggleMenu() {
-      this.isMenuActive = !this.isMenuActive;
-    },
-  },
-};
-</script>
 
 <style scoped>
 
