@@ -26,7 +26,7 @@ export default {
     <div class="container">
       <div class="navbar-brand">
         <router-link to="/">
-          <img src="/reyesandfriends.svg" alt="ReyesAndFriends" style="width: 200px; display: block;">
+          <img src="/reyesandfriends.svg" class="reyes-logo" alt="ReyesAndFriends">
         </router-link>
         <a role="button" class="navbar-burger" :class="{ 'is-active': isMenuActive }" aria-label="menu" aria-expanded="false" @click="toggleMenu">
           <span aria-hidden="true"></span>
@@ -60,6 +60,17 @@ export default {
 
 
 <style scoped>
+
+.reyes-logo{
+  width: 200px;
+  display: block;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.reyes-logo:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+
+}
 
 .navbar-burger {
   color: white;
